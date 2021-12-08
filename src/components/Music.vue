@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     getData () {
-      axios.get('https://api.napster.com/v2.1/tracks/top?apikey=ZGExNGZkZDQtMTRiZC00OGY4LTg3ZWYtOTAwMmJmMzBkMzAx').then((res) => {
+      axios.get('https://api.napster.com/v2.1/tracks/top?apikey=').then((res) => {
         console.log(res)
         this.songs = res.data.tracks
       })
