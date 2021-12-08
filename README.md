@@ -1,5 +1,9 @@
 # musicapidemo
 
+Simple track view:
+![image](https://user-images.githubusercontent.com/67824760/144315357-c58650f5-d875-4770-a381-449a32854358.png)
+
+
 ## Project setup
 ```
 npm install
